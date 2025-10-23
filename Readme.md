@@ -30,8 +30,10 @@ This project demonstrates networking, concurrency, and system-level programming 
 ```
 .
 ├── chat_room_ser      # Server-side program
+|   └── auth.c,auth.h,ser_main.c,ser_head.h,server.c
 |   └── makefile       # To compile server easily
-├── char_room_cli      # Client-side program      
+├── char_room_cli      # Client-side program
+|   └── client.c      
 ├── data/              # Folder containing user database
 │   └── users.txt
 └── README.md          # Project documentation
